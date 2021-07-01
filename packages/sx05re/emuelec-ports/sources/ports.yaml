@@ -347,3 +347,15 @@ Supermariowar:
   commands:
     - /usr/bin/show_splash.sh "ports" "supermariowar"
     - run_smw.sh
+
+Moonlight:
+  description: Gamestream client for embedded systems
+  rating: 0.7
+  release_date: 2020
+
+  init_port: true
+  port_exe: "moonlight"
+  audio: "alsa"
+  commands:
+    - /usr/bin/show_splash.sh "ports" "supermariowar"
+    - moonlight.sh
